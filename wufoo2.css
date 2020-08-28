@@ -1,0 +1,43 @@
+.buttonNext {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonNext input {
+    min-height: 38px;
+    cursor: pointer;
+    background-color: #fd7065;
+    padding: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 6px;
+    color: white;
+    /* font-size: 14px; */
+    text-decoration: none;
+    font-weight: 700;
+    border: unset !important;
+}
+
+.buttonNext input:hover {
+    background-color: #fc8880;
+}
+
+.buttonNext input:focus {
+    outline: none;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+    min-height: 20px;
+    border: 1px solid #ccd0d9;
+    border-radius: 3px;
+    padding: 11px 14px 9px;
+    position: relative;
+}
+
+select {
+    min-height: 38px;
+}
+
+.info {
+    display: none !important;
+}
